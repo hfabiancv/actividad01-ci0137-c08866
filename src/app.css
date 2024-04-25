@@ -1,0 +1,109 @@
+:root {
+    --text-font: 'Nunito', sans-serif;
+    --text-color: #ffffff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #0C0C0C;
+    height: 100vh;
+    font-family: var(--text-font);
+    color: var(--text-color);
+}
+
+h2 {
+    color: #71ddb4;
+    font-size: 2.5rem;
+    font-weight: 300;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+p {
+    font-size: 1.3rem;
+    margin-top: 20px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-weight: lighter;
+}
+
+.footer {
+    color: white;
+    padding: 50px 0; 
+}
+
+.navbar {
+    transition: all 0.5s;
+}
+
+.nav-link {
+    font-size: x-large;
+    color: #ffffff;
+}
+
+.nav-link:hover {
+    font-size: x-large;
+    color: #ffa135;
+}
+
+#home {
+    color: #F2613F;
+    padding-right: 25px;
+}
+
+
+.name-and-photo {
+    font-size: 800px;  
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+        
+}
+
+.name-container {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.name-and-photo h1 {
+    font-size: 3.5rem;
+    font-weight: 300;
+    margin-top: 20px;
+}
+
+.photo {
+    width: 50%;
+}
+
+.about, .education, .hobbies {
+    padding-top: 100px;
+    font-size: 1.5rem;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.about-container, .education-container, .hobbies-container {
+    width: 50%;
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.name-text, .about-text, .education-text, .hobbies-text {
+    width: 65%;
+}
